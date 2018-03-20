@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:id="@+id/cardview_itemVenda_id">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <TextView
+            android:id="@+id/tvDescricaoItemVendaId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:text="Shot Red Label"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvPrecoItemVendaId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="25"
+            android:text="250"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvQuantItemVendaId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="15"
+            android:text="2"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <TextView
+            android:id="@+id/tvSubtotalItemVendaId"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="30"
+            android:text="500Mtn"
+            android:layout_gravity="center"
+            android:gravity="right"/>
+
+    </LinearLayout>
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:orientation="horizontal"-->
+        <!--app:layout_constraintBottom_toBottomOf="parent"-->
+        <!--app:layout_constraintEnd_toEndOf="parent"-->
+        <!--app:layout_constraintStart_toStartOf="parent"-->
+        <!--app:layout_constraintTop_toTopOf="parent"-->
+        <!--android:weightSum="100"-->
+        <!--android:paddingLeft="5dp"-->
+        <!--android:paddingRight="5dp">-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvDescricaoItemVendaId"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="30"-->
+            <!--android:text="Shot Red Label"-->
+            <!--android:layout_gravity="center"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvPrecoItemVendaId"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="25"-->
+            <!--android:text="250"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:gravity="center"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvQuantItemVendaId"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="15"-->
+            <!--android:text="2"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:gravity="center"/>-->
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvSubtotalItemVendaId"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="30"-->
+            <!--android:text="500Mtn"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:gravity="right"/>-->
+
+    <!--</LinearLayout>-->
+</RelativeLayout>

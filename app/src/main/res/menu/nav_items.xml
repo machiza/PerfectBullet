@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:icon="@drawable/cartao_em_uso_24"
+        android:iconTint="@android:color/holo_green_light"
+        android:title="@string/nav_pagamento" />
+    <item
+        android:icon="@drawable/residuos_24"
+        android:iconTint="@color/colorPrimaryDark"
+        android:title="@string/nav_cancelar" />
+    <item
+        android:icon="@drawable/ic_backspace_black_24dp"
+        android:title="@string/nav_sair" />
+</menu>

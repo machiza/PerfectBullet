@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_width="70dp"
+    android:layout_height="90dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    android:id="@+id/cardas_atender_id"
+    android:background="@drawable/buttonstyle4">
+
+    <LinearLayout
+        android:id="@+id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_atender_id"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:padding="8dp"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:id="@+id/tv_variedade_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Variedade"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:background="@drawable/buttonstyle3"/>
+
+    </LinearLayout>
+
+    <com.nex3z.notificationbadge.NotificationBadge
+        android:id="@+id/badge"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_toRightOf="@id/icon"
+        android:layout_alignTop="@id/icon"
+        android:layout_marginLeft="-28dp"
+        android:layout_marginTop="0dp"
+        app:nbBackground="@drawable/badge_bg_with_shadow"
+        app:nbMaxTextLength="2"/>
+
+</RelativeLayout>

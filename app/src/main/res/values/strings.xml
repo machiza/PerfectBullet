@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Perfect Bullet</string>
+    <string name="nav_home">Home</string>
+    <string name="nav_garafa">Garafa</string>
+    <string name="nav_shot">Shot</string>
+    <string name="nav_cancelar">Cancelar</string>
+    <string name="nav_check">Check</string>
+    <string name="nav_sair">Sair</string>
+    <string name="nav_pagamento">Pagamento</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_text">Email</string>
+</resources>

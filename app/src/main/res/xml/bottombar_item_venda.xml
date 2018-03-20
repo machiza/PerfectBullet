@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs xmlns:android="http://schemas.android.com/apk/res/android">
+    <tab
+        id="@+id/tab_confirmar"
+        icon="@drawable/cartao_em_uso_filled_24"
+        title="Confirmar" />
+    <tab
+        id="@+id/tab_cancelar"
+        icon="@drawable/trash_24dp"
+            title="Cancelar"
+        background="@color/colorAccent"/>
+
+    <tab
+        id="@+id/tab_add"
+        icon="@drawable/ic_add_shopping_cart_black_24dp"
+        title="Add"
+        background="@color/colorAccent"/>
+
+    <tab
+        id="@+id/tab_actualizar"
+        icon="@drawable/ic_autorenew_black_24dp"
+        title="Actualizar" />
+
+</tabs>

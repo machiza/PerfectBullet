@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs xmlns:android="http://schemas.android.com/apk/res/android">
+    <tab
+        id="@+id/tab_all"
+        icon="@drawable/ic_all_inclusive_black_24dp"
+        title="Pagamento" />
+
+    <tab
+        id="@+id/tab_refrigerantes"
+        icon="@drawable/orange_juice_24px"
+        title="Pagamento" />
+
+    <tab
+        id="@+id/tab_shot"
+        icon="@drawable/vodka_shot_black_24px"
+        title="Pagamento" />
+
+    <tab
+        id="@+id/tab_cerveja"
+        icon="@drawable/beer_black_24px"
+        title="Pagamento" />
+
+    <tab
+        id="@+id/tab_garafa"
+        icon="@drawable/beer_bottle_black_24px"
+        title="Pagamento" />
+</tabs>

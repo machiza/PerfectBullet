@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mz.co.hossiman.perfectbullet.MainActivity">
+
+    <com.roughike.bottombar.BottomBar
+        android:id="@+id/bottomBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        app:bb_tabXmlResource="@xml/bottombar_tabs"
+        app:bb_behavior="iconsOnly"
+        app:bb_inActiveTabColor="@color/white"
+        app:bb_activeTabColor="@color/black"
+        android:background="@color/colorPrimaryDark">
+
+    </com.roughike.bottombar.BottomBar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/bottomBar"
+        android:background="@drawable/bartender1">
+
+        <com.roughike.bottombar.BottomBar
+            android:id="@+id/bottomBar2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:background="#e0ffffff"
+            app:bb_tabXmlResource="@xml/bottombar_menu1"
+            app:bb_tabletMode="true">
+
+        </com.roughike.bottombar.BottomBar>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_toEndOf="@+id/bottomBar2"
+            android:layout_toRightOf="@+id/bottomBar2">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerview_atender_id"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </android.support.v7.widget.RecyclerView>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

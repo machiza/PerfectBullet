@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tabs xmlns:android="http://schemas.android.com/apk/res/android">
+    <tab
+        id="@+id/tab_pesquisa_cliente"
+        icon="@drawable/ic_search_black_24dp"
+        title="Pesquisa"/>
+
+    <tab
+        id="@+id/tab_pagamento"
+        icon="@drawable/ic_shopping_cart_black_24dp"
+        title="Pagamento" />
+    <tab
+        id="@+id/tab_limpar"
+        icon="@drawable/trash_24dp"
+        title="Limpar"/>
+
+    <tab
+        id="@+id/tab_sair"
+        icon="@drawable/ic_backspace_black_24dp"
+        title="Sair" />
+</tabs>
